@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*,::after,::before{
+    padding: 0;
+    margin:0;
+   
+    box-sizing: border-box;
+  }
+  h2, h3, h4, li, span, a{
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  p{
+    font-family: "Hind Siliguri", sans-serif;}
+    main .image{
+        width: 100%;
+      }
+  body
+  {
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1rem;
+  }
+  header{
+background-image: url("../image/background.jpg");
+display: flex;
+justify-content: space-around;
+align-items:center;
+
+  }
+  nav{
+    display: grid;
+    
+  }
+  .titre{
+    display: grid;
+
+   
+  }
+  .span-nav{
+    color: rgba(255, 166, 0, 0.904);
+  }
+  .top-page {
+    background-color: #fff;
+    height :12vh;
+    padding 20px;
+  }
+  
+  .header{
+    display: flex;
+   align-items:center;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+  }
+  .header img {
+    width: 14rem;
+  }
+  .span-nav{
+    color: rgba(255, 166, 0, 0.904);
+  }
+  .div-menu
+   {
+  width :100%;
+  padding-left: 30%;
+}
+.dev-menu h2 {
+  padding-bottom: 40px;
+  margin-top: 0;
+  margin-left: 70%;
+}
+
+  .menu{
+   
+    justify-content:space-between;
+   
+    display: flex;
+    list-style-type: none;
+   
+    
+  
+    text-decoration: none;
+    margin-top: 1rem;
+    align-items: center;
+   
+
+   
+  }
+.menu li a {
+    color: black;
+    text-decoration: none;
+   align-items:center;
+   cursor: pointer;
+   
+  
+  }
+ 
+
+ .cards
+{
+
+ display:flex;
+ 
+ flex-wrap: wrap;
+
+  background-color: #ffffffef;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 0.3rem 0.5rem;
+ } 
+ .home-price {
+  text-decoration:line-through;
+ }
+ .color-or{
+  color: rgba(226, 226, 78, 0.575);
+ }
+  .home-link {
+  background-color: black;
+  width: 10rem;
+  text-align: center;
+ 
+ }
+  .home-link a{
+  color: #fff;
+  text-decoration: none;
+ }
+
+ .home{
+ 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+ #home-top{
+  background-color: black;
+  color: rgb(223, 138, 69);
+  position: relative;
+  bottom:23rem;
+ left: 20rem;
+ width: 54px;
+ 
+ }
+ #home-top h2{
+  position: static;
+
+ }
+
+ #home-bot{
+  position: relative;
+  bottom: 65px;
+ left: 3rem;
+
+ }
+ #home-bot p{
+  position: static;
+
+ }
+ #home-top2{
+  background-color: black;
+  color: rgb(223, 138, 69);
+  position: relative;
+  bottom:23rem;
+ left: 20rem;
+ width: 55px;
+ }
+ #home-to2 h2{
+  position: static;
+
+ }
+
+ #home-bot2{
+  position: relative;
+  bottom: 60px;
+ left: 3rem;
+
+ }
+ #home-bot2 p{
+  position: static;
+
+ }
+#home1 h3{
+  background-color: black;
+  color: #fff;
+}
+#home2 {
+  text-decoration:line-through;
+}
+
+
+#home-top3{
+  background-color: black;
+  color: rgb(223, 138, 69);
+  position: relative;
+  bottom:23rem;
+ left: 20rem;
+ width: 55px;
+ 
+ }
+ #home-top3 h2{
+  position: static;
+
+ }
+
+ #home-bot3{
+  position: absolute;
+  bottom: -26rem;
+ left: 28rem;
+
+ }
+ #home-bot3 p{
+  position: static;
+
+ }
+
+ #home-top4{
+  background-color: black;
+  color: rgb(223, 138, 69);
+  position: relative;
+  bottom:23rem;
+ left: 20rem;
+ width: 55px;
+ 
+ }
+ #home-top4 h2{
+  position: static;
+
+ }
+
+ #home-bot4{
+  position: relative;
+  bottom: 73px;
+ left:3rem;
+
+ }
+ #home-bot4 p{
+  position: static;
+
+ }
+ .
+
+  .card2 {
+display: flex;
+ }
+ article{
+  width:33%;
+ 
+  padding: 1rem 0;
+
+}
+
+
+footer{
+  background-color: rgba(128, 128, 128, 0.281);
+ }
+ .menu2  {
+ 
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  padding: 4px ;
+  width: 50rem;
+  margin:auto;
+
+  border-radius: 30px;
+ }
+
+ .footer-text{
+color: #ffffff93;
+ }
+ .footer-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+ }
+ .socials-medias{
+  display: flex;
+ 
+  justify-content:space-evenly;
+  align-items: center;
+ 
+  margin: 1rem;
+  padding: 10px;
+  width: 80%;
+ }
+ footer ul li {
+  list-style-type: none;
+  margin: 0.1rem;
+ }
+
+

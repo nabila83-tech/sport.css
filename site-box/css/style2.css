@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*,::after,::before{
+    padding: 0;
+    margin:0;
+   
+    box-sizing: border-box;
+  }
+  h2, h3, h4, li, span, a{
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  p{
+    font-family: "Hind Siliguri", sans-serif;}
+  
+   
+    @media  (480px < width < 780px) {
+
+      .header,.dev-menu, nav, .cards,   .form, footer{
+        flex-direction: column;
+      } 
+    
+      nav{
+        margin-bottom: 1.5rem;
+      }
+article {
+     
+}
+.image img {
+ width: 100%; 
+}  
+.container {
+        border-radius: 1rem;
+        padding: 1rem;
+}
+    
+.home {
+        border-radius: 1rem;
+        padding: 1rem;
+}
+     
+ body{
+ 
+   
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1rem;
+ }
+ header{
+  background-image: url("../image/background.jpg");
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-direction: column;
+ 
+  
+    }
+    nav{
+      display: grid;
+     
+      
+    }
+    .titre{
+      display: grid;
+     
+     
+    }
+  .span-nav{
+    color: rgba(255, 166, 0, 0.904);
+  }
+  .menu{
+   
+    justify-content:space-between;
+   
+    display: flex;
+    list-style-type: none;
+   
+    width:calc(100%/3);
+  
+    text-decoration: none;
+  }
+.menu li a {
+    color: black;
+    text-decoration: none;
+   align-items:center;
+   cursor: pointer;
+  
+  }
+  
+ .cards
+{
+
+ display:flex;
+ 
+ flex-wrap: wrap;
+
+  background-color: #ffffffef;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 0.3rem 0.5rem;
+ }
+
+ .home{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+ }
+ .home-link {
+  height: 2rem;
+  background-color: black;
+  margin-left: 2rem;
+  padding-right: 10rem;
+  text-align: center;
+ 
+ }
+  .home-link a{
+  color: #fff;
+  text-decoration: none;
+  
+  
+ }
+ .home-price {
+  text-decoration:line-through;
+ }
+
+ .home1{
+  border: 1rem solid black;
+ }
+ #home-top{
+  background-color: black;
+  color: rgb(223, 138, 69);
+  position: relative;
+  bottom:23rem;
+ left: 20rem;
+ width: 54px;
+ 
+ }
+ #home-top h2{
+  position: static;
+
+ }
+
+ #home-bot{
+  position: relative;
+  bottom: 75px;
+ left: 3rem;
+
+ }
+ #home-bot p{
+  position: static;
+
+ }
+ #home-top2{
+  background-color: black;
+  color: rgb(223, 138, 69);
+  position: relative;
+  bottom:23rem;
+ left: 20rem;
+ width: 55px;
+ }
+ #home-to2 h2{
+  position: static;
+
+ }
+
+ #home-bot2{
+  position: relative;
+  bottom: 78px;
+ left: 3rem;
+
+ }
+ #home-bot2 p{
+  position: static;
+
+ }
+#home1 h3{
+  background-color: black;
+  color: #fff;
+}
+#home2 {
+  text-decoration:line-through;
+}
+
+
+#home-top3{
+  background-color: black;
+  color: rgb(223, 138, 69);
+  position: relative;
+  bottom:23rem;
+ left: 20rem;
+ width: 55px;
+ 
+ }
+ #home-top3 h2{
+  position: static;
+
+ }
+
+ #home-bot3{
+  position: relative;
+  bottom: 5rem;
+ left: 3rem;
+
+ }
+ #home-bot3 p{
+  position: static;
+
+ }
+
+ #home-top4{
+  background-color: black;
+  color: rgb(223, 138, 69);
+  position: relative;
+  bottom:23rem;
+ left: 20rem;
+ width: 55px;
+ 
+ }
+ #home-top4 h2{
+  position: static;
+
+ }
+
+ #home-bot4{
+  position: relative;
+  bottom: 73px;
+ left:3rem;
+
+ }
+ #home-bot4 p{
+  position: static;
+
+ }
+
+  .card2 {
+display: flex;
+ }
+ article{
+  margin-left:4.5rem;
+  width:33%;
+ 
+  padding: 1rem 0;
+
+}
+ 
+ footer{
+  background-color: rgba(128, 128, 128, 0.281);
+ }
+ .menu2  {
+ 
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  padding: 4px ;
+  width: 30rem;
+  margin:auto;
+  border-radius: 30px;
+ }
+
+ .footer-text{
+color: #ffffff93;
+ }
+ .footer-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap :1em;
+  
+ 
+  flex-wrap: wrap;
+  
+  
+
+ }
+ .socials-medias{
+  display: flex;
+ 
+  justify-content:space-evenly;
+  align-items: center;
+ 
+  margin: 1rem;
+  padding: 10px;
+  width: 80%;
+ }
+ footer ul li {
+  list-style-type: none;
+  margin: 0.1rem;
+ }
