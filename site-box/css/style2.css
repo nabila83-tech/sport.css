@@ -19,37 +19,28 @@
   
    
     @media  (480px < width < 780px) {
+      
 
       .header,.dev-menu, nav, .cards,   .form, footer{
         flex-direction: column;
+        
       } 
     
       nav{
         margin-bottom: 1.5rem;
       }
-article {
-     
-}
+
 .image img {
  width: 100%; 
 }  
-.container {
-        border-radius: 1rem;
-        padding: 1rem;
-}
-    
-.home {
-        border-radius: 1rem;
-        padding: 1rem;
-}
-     
+
  body{
  
    
     background-color: black;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  
  }
  header{
   background-image: url("../image/background.jpg");
@@ -57,19 +48,14 @@ article {
   justify-content: space-around;
   align-items:center;
   flex-direction: column;
- 
-  
-    }
+     }
     nav{
       display: grid;
-     
-      
-    }
+      }
     .titre{
       display: grid;
-     
-     
-    }
+      margin-left: -4rem;
+     }
   .span-nav{
     color: rgba(255, 166, 0, 0.904);
   }
@@ -79,31 +65,30 @@ article {
    
     display: flex;
     list-style-type: none;
-   
-    width:calc(100%/3);
-  
+
     text-decoration: none;
+    gap: 5rem;
+    
   }
 .menu li a {
     color: black;
     text-decoration: none;
    align-items:center;
    cursor: pointer;
-  
-  }
+ 
+    }
   
  .cards
 {
-
- display:flex;
- 
+  overflow: auto;
+ display:flex; 
  flex-wrap: wrap;
-
   background-color: #ffffffef;
   display: flex;
   justify-content: space-around;
   gap: 1rem;
-  margin: 0.3rem 0.5rem;
+ 
+ 
  }
 
  .home{
@@ -111,13 +96,12 @@ article {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 2rem;
+  gap:1rem;
+  margin-top: -4.7rem;
  }
  .home-link {
-  height: 2rem;
   background-color: black;
-  margin-left: 2rem;
-  padding-right: 10rem;
+  width: 20rem;
   text-align: center;
  
  }
@@ -129,8 +113,13 @@ article {
  }
  .home-price {
   text-decoration:line-through;
+  width: 4rem;
+ 
  }
-
+.home-price-pourcentage{
+  width: 2rem;
+ 
+}
  .home1{
   border: 1rem solid black;
  }
@@ -244,7 +233,7 @@ article {
 display: flex;
  }
  article{
-  margin-left:4.5rem;
+  margin-left:5.5rem;
   width:33%;
  
   padding: 1rem 0;
@@ -260,7 +249,7 @@ display: flex;
   display: flex;
   justify-content: space-evenly;
   background-color: #fff;
-  padding: 4px ;
+  padding: 2px ;
   width: 30rem;
   margin:auto;
   border-radius: 30px;
@@ -268,26 +257,21 @@ display: flex;
 
  .footer-text{
 color: #ffffff93;
+
  }
  .footer-end{
   display: flex;
   justify-content: center;
   align-items: center;
   gap :1em;
-  
- 
-  flex-wrap: wrap;
-  
-  
-
- }
+     flex-wrap: wrap;
+     margin-left: 1rem;
+   }
  .socials-medias{
   display: flex;
- 
-  justify-content:space-evenly;
+   justify-content:space-evenly;
   align-items: center;
- 
-  margin: 1rem;
+   margin: 1rem;
   padding: 10px;
   width: 80%;
  }
